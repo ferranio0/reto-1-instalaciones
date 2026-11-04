@@ -7,7 +7,7 @@ Proyecto de ingeniería para el dimensionado, diseño y justificación documenta
 ## 📁 Contenido del Repositorio
 
 - **`Plantilla_Proyecto_Instalacion_Electrica_Panaderia.docx`**: Plantilla maestra oficial en formato Word para el desarrollo del proyecto, estructurada según UNE 157001, con portada reglamentaria, índice, fórmulas teóricas explicadas paso a paso, tablas de cálculo, pliego, presupuesto y checklist para calificación 10.
-- **`Receptores_panaderia.xlsx`**: Hoja de cálculo con el listado de receptores, potencias unitarias y totales, tensiones (230 V / 400 V), factores de potencia ($\cos \varphi$), intensidades nominales y notas de cálculo.
+- **`Receptores_panaderia_v2.xlsx`**: Hoja de cálculo con el listado de receptores, potencias unitarias y totales, tensiones (230 V / 400 V), factores de potencia ($\cos \varphi$), intensidades nominales y notas de cálculo.
 - **`Nave 2.dwg`**: Archivo de dibujo técnico en AutoCAD proporcionado por el profesor como base geométrica para el dimensionado y distribución de la nave.
 - **`PROYECTO Año anterior.pdf`**: Memoria técnica y proyecto de ejemplo de cursos anteriores como referencia de formato y estructura.
 - **`TABAJO DOCUMENTAL  SOBRE INSTALACIONES ELECTRICAS.pdf`**: Requisitos del reto y especificaciones académicas del trabajo.

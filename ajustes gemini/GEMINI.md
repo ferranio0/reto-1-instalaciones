@@ -12,7 +12,7 @@ Este repositorio contiene los documentos, tablas de cálculo y especificaciones 
 - **Normas UNE / IEC de aplicación** (UNE 20460-5-523 / HD 60364-5-52 para capacidades de corriente de cables según método de instalación y temperatura ambiente).
 
 ## Estructura de Documentación y Datos
-- `Receptores_panaderia.xlsx`: Hoja de cálculo con el inventario de maquinaria y receptores (hornos, amasadoras, batidoras, silos, divisoras, climatización, alumbrado, etc.), sus potencias nominales, tensiones (230 V monofásica / 400 V trifásica), factores de potencia ($\cos \varphi$), intensidades calculadas y factores de simultaneidad y utilización.
+- `Receptores_panaderia_v2.xlsx`: Hoja de cálculo con el inventario de maquinaria y receptores (hornos, amasadoras, batidoras, silos, divisoras, climatización, alumbrado, etc.), sus potencias nominales, tensiones (230 V monofásica / 400 V trifásica), factores de potencia ($\cos \varphi$), intensidades calculadas y factores de simultaneidad y utilización.
 - `PROYECTO Año anterior.pdf`: Proyecto de referencia del curso previo que sirve como guía de estructura, memoria descriptiva, cálculos justificativos, pliego de condiciones y presupuesto.
 - `TABAJO DOCUMENTAL  SOBRE INSTALACIONES ELECTRICAS.pdf`: Documento guía con los requisitos del reto, enunciados y directrices académicas.
 
