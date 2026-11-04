@@ -6,10 +6,13 @@ Proyecto de ingeniería para el dimensionado, diseño y justificación documenta
 
 ## 📁 Contenido del Repositorio
 
+- **`Plantilla_Proyecto_Instalacion_Electrica_Panaderia.docx`**: Plantilla maestra oficial en formato Word para el desarrollo del proyecto, estructurada según UNE 157001, con portada reglamentaria, índice, fórmulas teóricas explicadas paso a paso, tablas de cálculo, pliego, presupuesto y checklist para calificación 10.
 - **`Receptores_panaderia.xlsx`**: Hoja de cálculo con el listado de receptores, potencias unitarias y totales, tensiones (230 V / 400 V), factores de potencia ($\cos \varphi$), intensidades nominales y notas de cálculo.
 - **`PROYECTO Año anterior.pdf`**: Memoria técnica y proyecto de ejemplo de cursos anteriores como referencia de formato y estructura.
-- **`TABAJO DOCUMENTAL  SOBRE INSTALACIONES ELECTRICAS.pdf`**: Requisitos del reto y especificaciones del trabajo.
-- **`GEMINI.md`**: Configuración contextual para **Antigravity**. Define automáticamente el rol técnico, normativas REBT y criterios de cálculo para que Antigravity actúe como copiloto de ingeniería con todo el contexto cargado.
+- **`TABAJO DOCUMENTAL  SOBRE INSTALACIONES ELECTRICAS.pdf`**: Requisitos del reto y especificaciones académicas del trabajo.
+- **`ajustes gemini/`**: Carpeta reservada para la configuración, prompts y scripts de asistencia con IA / Antigravity:
+  - **`GEMINI.md`**: Directrices técnicas, normativas REBT y rol de ingeniería para que Antigravity trabaje como copiloto técnico.
+  - **`generate_master_word.py`**: Script de automatización que construye y actualiza la plantilla de Word.
 
 ---
 
@@ -27,7 +30,7 @@ cd reto-1-instalaciones
 ### 2. Abrir en Antigravity
 1. Inicia **Antigravity** (la aplicación de escritorio o IDE).
 2. Selecciona **Open Folder** (o `Ctrl + O` / `Cmd + O`) y elige la carpeta `reto-1-instalaciones` recién descargada.
-3. ¡Listo! Antigravity leerá automáticamente el archivo [`GEMINI.md`](GEMINI.md), reconociendo de inmediato el contexto del reto, los receptores de la panadería y las normativas aplicables (REBT, ITC-BT-19, ITC-BT-29, ITC-BT-47, etc.).
+3. ¡Listo! Antigravity reconocerá las directrices del archivo [`ajustes gemini/GEMINI.md`](ajustes%20gemini/GEMINI.md), conociendo de inmediato el contexto del reto, los receptores de la panadería y las normativas aplicables (REBT, ITC-BT-19, ITC-BT-29, ITC-BT-47, etc.).
 
 ---
 
