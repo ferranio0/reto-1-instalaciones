@@ -1,10 +1,15 @@
 # -*- coding: utf-8 -*-
+import os
 import sys
 import openpyxl
 
 sys.stdout.reconfigure(encoding='utf-8')
 
-wb = openpyxl.load_workbook('Receptores_panaderia.xlsx', data_only=True)
+# Localizar archivo tanto si se ejecuta desde raíz como desde 'ajustes gemini'
+base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+excel_path = os.path.join(base_dir, 'calculos', 'Receptores_panaderia_v2.xlsx')
+
+wb = openpyxl.load_workbook(excel_path, data_only=True)
 for sheet_name in wb.sheetnames:
     sheet = wb[sheet_name]
     print(f"=== Sheet: {sheet_name} (rows: {sheet.max_row}, cols: {sheet.max_column}) ===")

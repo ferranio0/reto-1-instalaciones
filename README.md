@@ -4,16 +4,21 @@ Proyecto de ingeniería para el dimensionado, diseño y justificación documenta
 
 ---
 
-## 📁 Contenido del Repositorio
+## 📁 Estructura del Repositorio
 
-- **`Plantilla_Proyecto_Instalacion_Electrica_Panaderia.docx`**: Plantilla maestra oficial en formato Word para el desarrollo del proyecto, estructurada según UNE 157001, con portada reglamentaria, índice, fórmulas teóricas explicadas paso a paso, tablas de cálculo, pliego, presupuesto y checklist para calificación 10.
-- **`Receptores_panaderia_v2.xlsx`**: Hoja de cálculo con el listado de receptores, potencias unitarias y totales, tensiones (230 V / 400 V), factores de potencia ($\cos \varphi$), intensidades nominales y notas de cálculo.
-- **`Nave 2.dwg`**: Archivo de dibujo técnico en AutoCAD proporcionado por el profesor como base geométrica para el dimensionado y distribución de la nave.
-- **`PROYECTO Año anterior.pdf`**: Memoria técnica y proyecto de ejemplo de cursos anteriores como referencia de formato y estructura.
-- **`TABAJO DOCUMENTAL  SOBRE INSTALACIONES ELECTRICAS.pdf`**: Requisitos del reto y especificaciones académicas del trabajo.
-- **`ajustes gemini/`**: Carpeta reservada para la configuración, prompts y scripts de asistencia con IA / Antigravity:
-  - **`GEMINI.md`**: Directrices técnicas, normativas REBT y rol de ingeniería para que Antigravity trabaje como copiloto técnico.
-  - **`generate_master_word.py`**: Script de automatización que construye y actualiza la plantilla de Word.
+- **`planos/`**: Planos y dibujos técnicos de la instalación:
+  - `Nave 2.dwg`: Archivo de dibujo técnico en AutoCAD como base geométrica para la distribución y cableado de la nave.
+- **`calculos/`**: Hojas de cálculo y dimensionado eléctrico:
+  - `Receptores_panaderia_v2.xlsx`: Listado detallado de receptores, potencias unitarias y totales, tensiones (230 V / 400 V), factores de potencia ($\cos \varphi$), intensidades nominales y notas de cálculo.
+- **`proyecto/`**: Documento oficial del proyecto de ingeniería:
+  - `Plantilla_Proyecto_Instalacion_Electrica_Panaderia.docx`: Plantilla maestra en Word estructurada según la norma UNE 157001 (portada, memoria, cálculos, pliego, presupuesto y anexos).
+- **`referencias/`**: Documentación académica y proyectos de apoyo:
+  - `PROYECTO Año anterior.pdf`: Memoria técnica y proyecto de ejemplo de cursos anteriores como guía de formato y estructura.
+  - `TABAJO DOCUMENTAL  SOBRE INSTALACIONES ELECTRICAS.pdf`: Requisitos del reto y especificaciones académicas del trabajo.
+- **`ajustes gemini/`**: Scripts de automatización y prompts para la IA / Antigravity:
+  - `GEMINI.md`: Directrices técnicas, normativas REBT y rol de ingeniería para Antigravity.
+  - `generate_master_word.py`: Script de automatización que construye y actualiza la plantilla de Word en `proyecto/`.
+  - `inspect_excel.py`: Script de utilidad para volcar y analizar el contenido de las hojas de Excel en `calculos/`.
 
 ---
 

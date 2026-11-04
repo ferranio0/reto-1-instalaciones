@@ -11,10 +11,14 @@ Este repositorio contiene los documentos, tablas de cálculo y especificaciones 
   - **ITC-BT-47**: Receptores - Motores eléctricos (intensidad de arranque, factor de 1.25 para el conductor del motor individual, etc.).
 - **Normas UNE / IEC de aplicación** (UNE 20460-5-523 / HD 60364-5-52 para capacidades de corriente de cables según método de instalación y temperatura ambiente).
 
-## Estructura de Documentación y Datos
-- `Receptores_panaderia_v2.xlsx`: Hoja de cálculo con el inventario de maquinaria y receptores (hornos, amasadoras, batidoras, silos, divisoras, climatización, alumbrado, etc.), sus potencias nominales, tensiones (230 V monofásica / 400 V trifásica), factores de potencia ($\cos \varphi$), intensidades calculadas y factores de simultaneidad y utilización.
-- `PROYECTO Año anterior.pdf`: Proyecto de referencia del curso previo que sirve como guía de estructura, memoria descriptiva, cálculos justificativos, pliego de condiciones y presupuesto.
-- `TABAJO DOCUMENTAL  SOBRE INSTALACIONES ELECTRICAS.pdf`: Documento guía con los requisitos del reto, enunciados y directrices académicas.
+## Estructura de Carpetas y Datos
+- **`planos/`**: Plano base de la nave en AutoCAD (`Nave 2.dwg`).
+- **`calculos/`**: Hoja de cálculo (`Receptores_panaderia_v2.xlsx`) con el inventario de maquinaria y receptores (hornos, amasadoras, batidoras, silos, divisoras, climatización, alumbrado, etc.), sus potencias nominales, tensiones (230 V monofásica / 400 V trifásica), factores de potencia ($\cos \varphi$), intensidades calculadas y factores de simultaneidad y utilización.
+- **`proyecto/`**: Documento oficial del proyecto en Word (`Plantilla_Proyecto_Instalacion_Electrica_Panaderia.docx`), estructurado según UNE 157001.
+- **`referencias/`**: Documentación y guías académicas:
+  - `PROYECTO Año anterior.pdf`: Memoria y proyecto de referencia de cursos anteriores.
+  - `TABAJO DOCUMENTAL  SOBRE INSTALACIONES ELECTRICAS.pdf`: Requisitos del reto y especificaciones académicas.
+- **`ajustes gemini/`**: Scripts de automatización y configuración técnica para Antigravity (`generate_master_word.py`, `inspect_excel.py`).
 
 ## Rol y Directrices para Antigravity en este Workspace
 - **Perfil**: Actuar como Ingeniero/a Especialista en Instalaciones Eléctricas de Baja Tensión.

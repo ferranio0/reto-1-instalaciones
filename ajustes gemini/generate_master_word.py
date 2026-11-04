@@ -1,9 +1,10 @@
-# -*- coding: utf-8 -*-
+﻿# -*- coding: utf-8 -*-
 """
 Generador de la Plantilla Maestra en Word (.docx) para el Proyecto de Instalación Eléctrica
 de Baja Tensión para una Panadería Industrial (UPV - Reto 1 Instalaciones).
 """
 
+import os
 import sys
 import docx
 from docx.shared import Inches, Pt, RGBColor
@@ -1354,7 +1355,8 @@ def create_document():
                 r.bold = True
                 r.font.color.rgb = RGBColor(13, 92, 117)
 
-    output_filename = "Plantilla_Proyecto_Instalacion_Electrica_Panaderia.docx"
+    base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    output_filename = os.path.join(base_dir, "proyecto", "Plantilla_Proyecto_Instalacion_Electrica_Panaderia.docx")
     doc.save(output_filename)
     print(f"Documento generado exitosamente como '{output_filename}'")
 
