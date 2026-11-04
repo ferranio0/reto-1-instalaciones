@@ -23,3 +23,8 @@ __pycache__/
 .vscode/
 .idea/
 *.sublime-workspace
+
+# Archivos temporales y de bloqueo de AutoCAD
+*.bak
+*.dwl
+*.dwl2
