@@ -1,0 +1,25 @@
+# Archivos temporales y de bloqueo de Office
+~$*.xlsx
+~$*.docx
+~$*.pptx
+*.tmp
+*.log
+
+# Archivos del sistema operativo (Windows / Mac)
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# Entornos virtuales y cachés de Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+.uv/
+
+# Configuraciones locales de editores
+.vscode/
+.idea/
+*.sublime-workspace
